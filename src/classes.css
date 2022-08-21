@@ -1,0 +1,42 @@
+body.lock {
+	overflow: hidden;
+}
+
+.modal {
+	position: absolute;
+	visibility: hidden;
+}
+
+.modal.active {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	visibility: visible;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+	width: 100vw;
+	height: 100vh;
+
+	background-color: rgba(116, 185, 185, 0.678);
+	font-size: 30px;
+}
+
+.wind {
+	display: flex;
+	flex-direction: column;
+
+	padding: 100px 200px 25px;
+	background-color: beige;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+.butt {
+	transform: translate(65%);
+	margin-top: 80px;
+
+	width: 50px;
+}
